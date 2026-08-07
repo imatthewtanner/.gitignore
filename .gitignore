@@ -1,0 +1,317 @@
+# ============================================================
+# Operating System Files
+# ============================================================
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Linux
+*~
+.directory
+
+
+# ============================================================
+# Editors / IDEs
+# ============================================================
+
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# JetBrains
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Vim
+*.swp
+*.swo
+
+# Emacs
+*~
+
+
+# ============================================================
+# Environment / Secrets
+# ============================================================
+
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.crt
+*.p12
+
+secrets/
+credentials/
+config.local.*
+
+
+# ============================================================
+# Logs / Temporary Files
+# ============================================================
+
+*.log
+logs/
+log/
+*.tmp
+*.temp
+*.cache
+.cache/
+
+temp/
+tmp/
+
+
+# ============================================================
+# Build Output
+# ============================================================
+
+dist/
+build/
+out/
+release/
+coverage/
+
+*.exe
+*.dll
+*.so
+*.dylib
+
+*.o
+*.obj
+*.a
+*.lib
+
+
+# ============================================================
+# Node.js / JavaScript / TypeScript
+# ============================================================
+
+node_modules/
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.next/
+.nuxt/
+.vite/
+
+*.tsbuildinfo
+
+
+# ============================================================
+# Python
+# ============================================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+env/
+
+*.egg-info/
+.eggs/
+
+dist/
+build/
+
+
+# ============================================================
+# Jupyter / Data Science
+# ============================================================
+
+.ipynb_checkpoints/
+
+*.csv.tmp
+*.parquet.tmp
+
+
+# ============================================================
+# Databases
+# ============================================================
+
+*.db
+*.sqlite
+*.sqlite3
+
+*.mdb
+
+
+# ============================================================
+# Docker
+# ============================================================
+
+docker-compose.override.yml
+
+
+# ============================================================
+# Testing / Reports
+# ============================================================
+
+test-results/
+test-output/
+reports/
+
+*.coverage
+
+
+# ============================================================
+# Documentation / Office Temporary Files
+# ============================================================
+
+~$*.docx
+~$*.xlsx
+~$*.pptx
+
+*.bak
+*.backup
+*.old
+
+
+# ============================================================
+# CAD / Engineering Files
+# ============================================================
+
+# AutoCAD temporary files
+*.ac$
+*.bak
+*.sv$
+*.dwl
+*.dwl2
+
+# AutoCAD lock files
+*.lck
+
+# Plot files
+*.plt
+
+# Temporary exports
+exports/
+exports_temp/
+
+# Generated drawings (adjust if source-controlled)
+generated/
+publish/
+
+
+# ============================================================
+# AI / ML / Data Artifacts
+# ============================================================
+
+models/
+checkpoints/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+embeddings/
+vectorstore/
+
+*.pickle
+*.pkl
+
+
+# ============================================================
+# Cloud / Deployment
+# ============================================================
+
+.aws/
+.gcloud/
+
+.wrangler/
+.vercel/
+
+terraform.tfstate
+terraform.tfstate.*
+
+*.tfvars
+
+
+# ============================================================
+# Package Managers
+# ============================================================
+
+# NuGet
+*.nupkg
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+
+
+# ============================================================
+# Archives
+# ============================================================
+
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+
+
+# ============================================================
+# Generated Documentation
+# ============================================================
+
+site/
+docs/_build/
+
+
+# ============================================================
+# Local Project Files
+# ============================================================
+
+.local/
+.localdata/
+workspace/
+scratch/
+sandbox/
+
+
+# Tannerpress Generated Assets
+/.generated/
+/.ai-cache/
+/prompt-runs/
+/analysis-output/
+/render-cache/
+
+# DWG Parser Results
+/parser-output/
+/scan-results/
+/validation-reports/
+
+# Local MCP/App Testing
+/.mcp-cache/
+/.local-mcp/
