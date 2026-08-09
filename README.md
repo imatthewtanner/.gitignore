@@ -1,2 +1,2 @@
 # .gitignore
-        “Standard baseline .gitignore for all new Tannerpress projects.”
+        “My .gitignore template”
